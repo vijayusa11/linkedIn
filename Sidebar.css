@@ -1,0 +1,108 @@
+.sidebar {
+    position: sticky;
+    top: 80px;
+    flex: 0.20;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+    min-width: 150px;
+}
+
+.sidebar__avatar {
+    margin-bottom: 10px;
+}
+
+.sidebar__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    border-bottom: none;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.sidebar__top > img {
+    width: 100%;
+    margin-bottom: -25px;
+    height: 60px;
+    object-fit: cover;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.sidebar__stats {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+}
+
+.sidebar__top > h4 {
+    color: gray;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.sidebar__top > h2 {
+    font-size: 17px;
+}
+
+.sidebar__stat {
+     display: flex;
+     margin-top: 10px;
+     justify-content: space-between;
+}
+
+.sidebar__stat > p {
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.sidebar__statNumber {
+    font-weight: bold !important;
+    color: #0a66c2 !important;
+}
+
+.sidebar__recentItem {
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.sidebar__recentItem:hover {
+    background-color: whitesmoke;
+    width: 100%;
+    cursor: pointer;
+    color: rgb(75, 71, 71);
+}
+
+.sidebar__bottom {
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.sidebar__bottom > p {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.sidebar__hash  {
+    margin-left: 5px;
+    margin-right: 10px;
+}
